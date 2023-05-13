@@ -9,7 +9,7 @@ let arr = [
 function PrintStudentswithMap() {
   //Write your code here , just console.log
   arr.map((student)=>{
-    if(student.marks<=50){
+    if(student.marks>=50){
       console.log(student);
     }
   })
@@ -18,7 +18,7 @@ function PrintStudentswithMap() {
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
   arr.forEach((student)=>{
-    if(student.marks<=50){
+    if(student.marks>=50){
       console.log(student);
     }
   })
